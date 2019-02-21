@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         mIsRunning = true;
     }
 
-    public void onStopCLick(View view) {
+    public void onStopClick(View view) {
         mIsRunning = false;
     }
 
