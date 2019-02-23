@@ -65,21 +65,21 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        mIsWasRunning = mIsRunning;
-        mIsRunning = false;
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-
-        if (mIsWasRunning) {
-            mIsRunning = true;
-        }
-    }
+//    @Override
+//    protected void onStop() {
+//        super.onStop();
+//        mIsWasRunning = mIsRunning;
+//        mIsRunning = false;
+//    }
+//
+//    @Override
+//    protected void onStart() {
+//        super.onStart();
+//
+//        if (mIsWasRunning) {
+//            mIsRunning = true;
+//        }
+//    }
 
     @Override
     protected void onPause() {
